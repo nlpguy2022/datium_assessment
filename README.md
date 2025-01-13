@@ -45,7 +45,7 @@ The processed datasets with feature engineering are in the following files:
 1. FeatureDF.csv: for the training data
 2. TestDF.csv: for the test data
 
-- You can refine the existing model (RFRegressor with current R2 of 0.85 by adding to the existing featuresets.)
+- You can refine the existing model (RFRegressor with current R2 of 0.83 by adding to the existing featuresets.)
 
 ### 4. Evaluation & Conclusion
 1. Carefully selecting the data is crucial, evident with the fact that we had relatively good performance only using 4 input features (NewPrice, KM per Year, Aging and RelativePower) to model car depreciation to predict sales price.
